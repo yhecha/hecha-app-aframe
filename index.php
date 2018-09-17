@@ -13,7 +13,7 @@
     </head>
     <body>
         <ul>
-            <li><a href="app/sample.html">最初のサンプル</a></li>
+            <li><a href="sample.html">最初のサンプル</a></li>
             <li></li>
         </ul>
     </body>
