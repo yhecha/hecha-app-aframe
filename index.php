@@ -1,6 +1,6 @@
 <?php
 // 作ったA-FRAMEの一覧を表示する
-$dir = dirname(__DIR__);
+$dir = dirname(__DIR__).'app/';
 var_dump($dir);
 ?>
 
