@@ -1,6 +1,6 @@
 <?php
 // 作ったA-FRAMEの一覧を表示する
-$dir = dirname(__FILE__);
+$dir = dirname(__DIR__);
 var_dump($dir);
 ?>
 
