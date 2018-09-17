@@ -1,7 +1,6 @@
 <?php
-// 作ったA-FRAMEの一覧を表示する
-$dir = dirname(__DIR__).'app/';
-var_dump($dir);
+// dummy
+
 ?>
 
 <!DOCTYPE html>
@@ -13,6 +12,9 @@ var_dump($dir);
         <title>A-FRAMEアプリ一覧</title>
     </head>
     <body>
-
+        <ul>
+            <li><a href="app/sample.html">最初のサンプル</a></li>
+            <li></li>
+        </ul>
     </body>
 </html>
