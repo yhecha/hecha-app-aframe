@@ -13,8 +13,8 @@
     </head>
     <body>
         <ul>
-            <li><a href="sample.html">最初のサンプル</a></li>
-            <li></li>
+            <li><a href="sample.html">公式のサンプルをコピペ</a></li>
+            <li><a href=""></a></li>
         </ul>
     </body>
 </html>
