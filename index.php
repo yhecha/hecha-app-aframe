@@ -14,7 +14,7 @@
     <body>
         <ul>
             <li><a href="sample.html">公式のサンプルをコピペ</a></li>
-            <li><a href=""></a></li>
+            <li><a href="sample.html">背景画像</a></li>
         </ul>
     </body>
 </html>
