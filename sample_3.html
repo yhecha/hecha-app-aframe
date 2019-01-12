@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+        <script src="https://cdn.rawgit.com/donmccurdy/aframe-physics-system/v3.3.0/dist/aframe-physics-system.min.js"></script>
+        <title>test</title>
+    </head>
+    <body>
+        <a-scene physics="debug: true">
+            <!-- assets -->
+            <a-assets>
+                <img id="floor" src="assets/images/floor.jpg">
+            </a-assets>
+
+            <!-- 物理演算用サイコロオブジェクト -->
+            <a-entity
+                dynamic-body="mass:100; linearDamping: 0.01; angularDamping: 0.0001;"
+                geometry="primitive: box"
+                position="0 10 -10">
+            </a-entity>
+
+            <!-- 床 -->
+            <a-entity
+                static-body
+                geometry="primitive: box; width: 300; depth: 300; height: 1"
+                position="0 0 0"
+                material="src: #floor; repeat: 20 20;">
+            </a-entity>
+        </a-scene>
+    </body>
+</html>
