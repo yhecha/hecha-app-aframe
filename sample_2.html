@@ -8,9 +8,9 @@
     <body>
         <a-scene>
             <a-assets>
-                <img id="boxTexture" src="https://i.imgur.com/mYmmbrp.jpg">
-                <img id="skyTexture"
-                    src="./assets/images/equirectangular/metro.jpg">
+                <!-- 背景画像 -->
+                <img id="house_1f" src="./assets/images/equirectangular/house_1_1f.jpg">
+                <img id="house_2f" src="./assets/images/equirectangular/house_1_2f.jpg">
             </a-assets>
 
             <!-- カーソルを作る -->
@@ -30,7 +30,7 @@
 
             <!-- オブジェクト -->
             <a-box color="white" depth="1" height="2" width="2" position="-5 0 -6"></a-box>
-            <a-sky src="#skyTexture"></a-sky>
+            <a-sky src="#house_1f"></a-sky>
         </a-scene>
         <script src="assets/js/sample_2.js"></script>
     </body>
