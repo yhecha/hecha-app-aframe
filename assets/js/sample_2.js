@@ -7,7 +7,7 @@ var boxEl = document.querySelector('a-box');
 
 // 注視カーソルクリック
 boxEl.addEventListener('click', function() {
-    document.getElementById("bgSky").src = "./assets/images/equirectangular/house_1_2f.jpg";
+    document.getElementById("bgSky").src = "#house_2f";
     console.log("idou");
 });
 
