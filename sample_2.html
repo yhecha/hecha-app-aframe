@@ -7,6 +7,12 @@
     </head>
     <body>
         <a-scene>
+            <a-assets>
+                <img id="boxTexture" src="https://i.imgur.com/mYmmbrp.jpg">
+                <img id="skyTexture"
+                    src="./assets/images/equirectangular/metro.jpg">
+            </a-assets>
+
             <!-- カーソルを作る -->
             <a-entity camera look-controls wasd-controls>
                 <a-entity cursor="fuse: true;"
@@ -22,7 +28,7 @@
 
             <!-- オブジェクト -->
             <a-box color="red" depth="3" height="3" width="3" position="0 0 -6"></a-box>
-            <a-sky color="#87ceeb"></a-sky>
+            <a-sky src="#skyTexture"></a-sky>
         </a-scene>
         <script src="assets/js/sample_2.js"></script>
     </body>
