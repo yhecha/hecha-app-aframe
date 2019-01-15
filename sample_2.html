@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-        <script src="assets/js/component/sample_2_component.js"></script>
         <title>注視カーソル</title>
     </head>
     <body>
@@ -17,7 +16,7 @@
             <a-entity log="message: Hello, Metaverse!"></a-entity>
             
             <!-- カーソルを作る -->
-            <!-- <a-entity camera look-controls wasd-controls>
+            <a-entity camera look-controls wasd-controls>
                 <a-entity cursor="fuse: true;"
                             position="0 0 -3"
                             geometry="primitive: ring; radiusInner: 0.1; radiusOuter: 0.15;"
@@ -29,11 +28,11 @@
                                     fill="backwards" from="1 1 1" to="0.1 0.1 0.1">
                     </a-animation>
                 </a-entity>
-            </a-entity> -->
+            </a-entity>
 
             <!-- オブジェクト -->
-            <!-- <a-box color="white" depth="1" height="2" width="2" position="-5 0 -6"></a-box>
-            <a-sky id="bgSky" src="#house_1f"></a-sky> -->
+            <a-box color="white" depth="1" height="2" width="2" position="-5 0 -6"></a-box>
+            <a-sky id="bgSky" src="#house_1f"></a-sky>
         </a-scene>
         <script src="assets/js/sample_2.js"></script>
     </body>
