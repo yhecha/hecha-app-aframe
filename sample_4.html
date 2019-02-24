@@ -6,30 +6,32 @@
     </head>
     <body>
         <a-scene>
-            <!-- sphereにテクスチャを貼ってアニメーション追加 Start -->
-            <a-sphere position="0 1.25 -5" radius="1.25" src="./assets/images/earth.jpg">
-                <!-- アニメーションを追加(オブジェクトを自転させる) -->
-                <a-animation
-                    attribute="rotation"
-                    dur="10000"
-                    from="0 0 0"
-                    to="0 360 360"
-                    repeat="indefinite"
-                    easing="linear"
-                >
-                </a-animation>
+            <a-entity rotation="0 0 25">
+                <!-- sphereにテクスチャを貼ってアニメーション追加 Start -->
+                <a-sphere position="0 1.25 -5" radius="1.25" src="./assets/images/earth.jpg">
+                    <!-- アニメーションを追加(オブジェクトを自転させる) -->
+                    <a-animation
+                        attribute="rotation"
+                        dur="10000"
+                        from="0 0 0"
+                        to="0 360 0"
+                        repeat="indefinite"
+                        easing="linear"
+                    >
+                    </a-animation>
 
-                <!-- a-sphere の子要素にオブジェクトを追加することでアニメーションに追従させる -->
-                <a-obj-model
-                    position="2 0 0"
-                    rotation="0 -90 0"
-                    scale="0.1 0.1 0.1"
-                    src="./assets/images/3d/astronaut/Astronaut.obj"
-                    mtl="./assets/images/3d/astronaut/Astronaut.mtl"
-                >
-                </a-obj-model>
+                    <!-- a-sphere の子要素にオブジェクトを追加することでアニメーションに追従させる -->
+                    <a-obj-model
+                        position="2 0 0"
+                        rotation="0 -90 0"
+                        scale="0.1 0.1 0.1"
+                        src="./assets/images/3d/astronaut/Astronaut.obj"
+                        mtl="./assets/images/3d/astronaut/Astronaut.mtl"
+                    >
+                    </a-obj-model>
 
-            </a-sphere>
+                </a-sphere>
+            </a-entity>
             <!-- sphereにテクスチャを貼ってアニメーション追加 End -->
 
             <!-- a-sky: 3D空間の背景を描画する -->
