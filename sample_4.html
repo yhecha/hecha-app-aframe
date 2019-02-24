@@ -36,12 +36,12 @@
             <!-- sphereにテクスチャを貼ってアニメーション追加 End -->
 
             <!-- 流れ星とかつくれるのかな？ -->
-            <a-sphere position="-50 30 -40" scale="0.25 0.25 0.25" color="yellow">
+            <a-sphere position="-40 20 -40" scale="0.25 0.25 0.25" color="yellow">
                 <!-- オブジェクトの移動 -->
                 <a-animation
                     attribute="position"
-                    dur="7000"
-                    to="10 -5 50"
+                    dur="10000"
+                    to="20 -5 20"
                     repeat="indefinite"
                     easing="ease-in"
                 >
@@ -50,7 +50,7 @@
                 <!-- オブジェクトを拡大させる(せまってきた感を出す) -->
                 <a-animation
                     attribute="scale"
-                    dur="7000"
+                    dur="10000"
                     to="3 3 3"
                     repeat="indefinite"
                     easing="ease-in"
