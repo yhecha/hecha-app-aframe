@@ -6,7 +6,8 @@
     </head>
     <body>
         <a-scene>
-            <a-entity rotation="0 0 25">
+            <!-- sphereオブジェクトの回転軸を斜めにしたいので、親にentityを追加して角度＆位置を調整 -->
+            <a-entity position="0.5 0 0" rotation="0 0 25">
                 <!-- sphereにテクスチャを貼ってアニメーション追加 Start -->
                 <a-sphere position="0 1.25 -5" radius="1.25" src="./assets/images/earth.jpg">
                     <!-- アニメーションを追加(オブジェクトを自転させる) -->
@@ -33,6 +34,9 @@
                 </a-sphere>
             </a-entity>
             <!-- sphereにテクスチャを貼ってアニメーション追加 End -->
+
+            <!-- 流れ星とかつくれるのかな？ -->
+            <a-sphere position="0 3 0" color="red"></a-sphere>
 
             <!-- a-sky: 3D空間の背景を描画する -->
             <a-sky src="./assets/images/space.jpg"></a-sky>
