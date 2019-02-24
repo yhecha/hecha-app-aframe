@@ -21,7 +21,7 @@
                     >
                     </a-animation>
 
-                    <!-- a-sphere の子要素にオブジェクトを追加することでアニメーションに追従させる -->
+                    <!-- 宇宙飛行士のオブジェクトを追加： a-sphere の子要素にオブジェクトを追加することでアニメーションに追従させる -->
                     <a-obj-model
                         position="2 0 0"
                         rotation="0 -90 0"
@@ -36,7 +36,17 @@
             <!-- sphereにテクスチャを貼ってアニメーション追加 End -->
 
             <!-- 流れ星とかつくれるのかな？ -->
-            <a-sphere position="0 3 0" color="red"></a-sphere>
+            <a-sphere position="-20 3 -40" scale="0.25 0.25 0.25" color="red">
+                <a-animation
+                    attribute="position"
+                    dur="10000"
+                    from="0 0 0"
+                    to="10 -5 -10"
+                    repeat="indefinite"
+                    easing="ease-in"
+                >
+                </a-animation>
+            </a-sphere>
 
             <!-- a-sky: 3D空間の背景を描画する -->
             <a-sky src="./assets/images/space.jpg"></a-sky>
