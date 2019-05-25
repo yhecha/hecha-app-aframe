@@ -50,7 +50,7 @@ Uncaught SecurityError: Failed to execute 'texImage2D' on 'WebGLRenderingContext
 # 「wasd-controls」を指定するとWASDキーで操作もできる
 <a-entity camera look-controls wasd-controls></a-entity>
 ```
-<p class="ec__link-index"><a href="#index">[^ 目次へ]</a></p>
+<p class="ec__link-index"><a href="#idx_0">[^ 目次へ]</a></p>
 
 
 <a id="idx_2"></a>
@@ -74,7 +74,7 @@ Uncaught SecurityError: Failed to execute 'texImage2D' on 'WebGLRenderingContext
     </a-animation>
 </a-sphere>
 ```
-<p class="ec__link-index"><a href="#index">[^ 目次へ]</a></p>
+<p class="ec__link-index"><a href="#idx_0">[^ 目次へ]</a></p>
 
 
 <a id="idx_3"></a>
@@ -120,7 +120,7 @@ map_Kd ここにpngファイルのパス(同階層であればファイル名だ
 </a-obj-model>
 ```
 
-<p class="ec__link-index"><a href="#index">[^ 目次へ]</a></p>
+<p class="ec__link-index"><a href="#idx_0">[^ 目次へ]</a></p>
 
 
 <a id="idx_4"></a>
@@ -153,7 +153,7 @@ iPhoneだと
 ..省略..
 </a-scene>
 ```
-<p class="ec__link-index"><a href="#index">[^ 目次へ]</a></p>
+<p class="ec__link-index"><a href="#idx_0">[^ 目次へ]</a></p>
 
 
 -End-
