@@ -1,6 +1,6 @@
 <?php
 // dummy
-
+// このページをおしゃれな感じにしよう。
 ?>
 
 <!DOCTYPE html>
